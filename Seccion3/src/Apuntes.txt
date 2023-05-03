@@ -1,0 +1,21 @@
+----------------------------------------
+ Seccion 3: Tipo String: cadenas
+ ----------------------------------------
+ 25. Introduccion a los strings
+    String nombre = "andres";
+    String tema = "Manejo de \"string\"";
+
+    para concatenar se ocupa +
+    para comparar valores se debe ocupar equals.
+
+    Algunos metodos importantes:
+        -length()/int: devuelve el numero de caracteres de la cadena
+        -equals(String b)/boolean: compara si las cadenas son iguales.
+        -equalsIgnoreCase(String b)/boolean: compara si las cadenas son iguales, independiente de
+            si estan en mayusculas/minusculas.
+        -compareTo(String b)/int: compara contra la cadena del argumento devolviendo:
+            *un valor negativo si la cadena es anterior a b
+            *0 si la cadena es igual a b
+            *un valor positivo si la cadena es posterior a b
+        -trim()/String: Crea un nuevo objeto eliminando el espacio en blanco al principio o final.
+        -charAt(int posicion)/char: Extrae un caracter en la posicion indicada.
