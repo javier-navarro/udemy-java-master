@@ -1,0 +1,58 @@
+=======================================================
+seccion4
+=======================================================
+
+----------------------------------------------------------
+-------- 35 Introduccion a Operadores
+----------------------------------------------------------
+
+    OPERADORES ARITMETICOS
+        -Multiplicacion
+        -Division
+        -Modulo o resta
+        -Suma
+        -Resta
+        -Incremento ++
+        -Decremento --
+        -Menos Unario -
+
+    Operadores Conbinados
+        -=
+        +=
+        /=
+        *=
+    Operadores Incremento y Decremento
+
+        ++a = pre-incremento. incrementa en 1 y luego devuelve a
+        a++ = post-incremento, devuelve a, y luego incrementa en 1
+        --a = pre-decremento, decrementa en 1, luego devuelve a
+        a-- = post-decremento, Devuelve a, luego decrementa en 1.
+
+     Ternario: abreviacion de un if-else
+        Si la condicion se cumple devuelve el primer valor y al contrario devuelve el segundo.
+
+        (condicion)? valor1:valor2;
+
+     Operadores Relacionales: comprueban relaciones de igualdad, mayor que o menor que. Devuelve boolean.
+
+        > mayor que
+        >= mayor o igual que
+        < menor que
+        <= menor o igual que
+        == igual a
+        != distinto de
+
+     Operadires Logicos
+
+        And &&
+        Or ||
+        not !
+
+----------------------------------------------------------
+-------- 36 Operadores aritmeticos [OperadorAritmetico]
+----------------------------------------------------------
+
+----------------------------------------------------------
+-------- 37 Operadores Asignacion [OperadorAsignacion]
+----------------------------------------------------------
+
