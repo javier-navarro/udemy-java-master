@@ -1,6 +1,7 @@
 public class EjemploStringConcatenacion {
     public static void main(String[] args) {
 
+
         String curso = "Programacion Java";
         String profesor = "Cristiano Ronaldo";
 
@@ -33,5 +34,8 @@ public class EjemploStringConcatenacion {
         //para que tome el cambio debe asignarse a una variable nueva
         String resultado3 = resultado2.replace("a", "A");
         System.out.println("resultado3 = " + resultado3);
+
     }
+
+
 }

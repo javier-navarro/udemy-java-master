@@ -53,6 +53,15 @@ seccion4
 ----------------------------------------------------------
 
 ----------------------------------------------------------
--------- 37 Operadores Asignacion [OperadorAsignacion]
+-------- 48. Operador Instanceof
+----------------------------------------------------------
+
+    Todas las clases heredan del tipo object
+    instanceof:  Sirve para saber si una variable es de determinado tipo.
+
+    todos los numero son Number.
+
+----------------------------------------------------------
+-------- 50. Procedencia de los operadores.
 ----------------------------------------------------------
 
