@@ -1,0 +1,40 @@
+================================
+SECCION 5
+================================
+
+------------------------------------------
+-- 52. FLUJOS DE CONTROL
+------------------------------------------
+
+    1- IF
+        - IF
+        - ELSE IF
+        - ELSE
+
+    2- SWITCH
+
+    3- FOR
+
+    4- WHILE
+
+------------------------------------------
+-- 55. FLUJO DE CONTROL switch
+------------------------------------------
+
+------------------------------------------
+-- 55. FLUJO DE CONTROL bucles
+------------------------------------------
+    while: ejecuta un bloque de codigo mientras se cumpla una funcion
+       primero evalua la condicion antes de ejecutar.
+
+    do-while: Igual al while, pero la expresion se evalua al final.
+
+    for: se ocupa cuando se conocen los limentes del bucle.
+
+    continue: sirve para saltar resultados, sin terminar el proceso.
+    contains: debe ser literal, no posee la opcion ignorecase
+
+
+------------------------------------------
+-- 63. Etiquetas bucles
+------------------------------------------
