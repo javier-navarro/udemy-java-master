@@ -4,7 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Seccion3/Seccion3.iml" filepath="$PROJECT_DIR$/Seccion3/Seccion3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion4/Seccion4.iml" filepath="$PROJECT_DIR$/Seccion4/Seccion4.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seccion5/Seccion5.iml" filepath="$PROJECT_DIR$/Seccion5/Seccion5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seccion5_flujosDeControl/Seccion5_flujosDeControl.iml" filepath="$PROJECT_DIR$/Seccion5_flujosDeControl/Seccion5_flujosDeControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seccion7-ValorVsReferencia/Seccion7-ValorVsReferencia.iml" filepath="$PROJECT_DIR$/Seccion7-ValorVsReferencia/Seccion7-ValorVsReferencia.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/udemy-java-master.iml" filepath="$PROJECT_DIR$/.idea/udemy-java-master.iml" />
     </modules>
   </component>
