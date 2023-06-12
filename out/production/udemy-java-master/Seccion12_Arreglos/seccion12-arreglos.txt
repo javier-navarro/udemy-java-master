@@ -1,0 +1,22 @@
+=========================
+seccion 12 - Arreglos
+=========================
+
+-------------------------------
+93 - intro a los arreglos
+-------------------------------
+
+    Declaracion de arreglos:
+    tipo_de_dato [] nombre_array;
+    int[] numeros;
+
+    Instancia:
+    tipo_de_dato [] nombre_array = new tipo_de_dato[largo]
+    int[] numeros = new int[3];
+
+    Acceder a los elementos de un array:
+        int num1 = numeros[0];
+        String nombre1 = nombres[1];
+
+    Otra forma de declaracion e inicializacion
+        int[] numeros = {1,2,3};
