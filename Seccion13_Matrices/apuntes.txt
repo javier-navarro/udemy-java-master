@@ -1,0 +1,14 @@
+
+============================
+Seccion 13: Matrices
+============================
+
+----------------------------
+ 116 - Intro a las matrices
+----------------------------
+ declaracion
+    int[][] numeros = new int[2][3]
+ numero filas
+    numeros.length
+ numeros columnas
+    numero[0].length
