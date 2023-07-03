@@ -1,0 +1,105 @@
+==============================
+seccion 14 - POO
+==============================
+
+-----------------------------
+132 - agregando metodos.
+-----------------------------
+
+-----------------------------
+132 - metodos con argumentos
+-----------------------------
+    metodos siempre con minuscula
+    aplica camel case.
+
+-------------------------------------------
+135 - Principio de ocultación de los atributos
+-------------------------------------------
+
+cuando los atributos son privados solo se pueden acceder desde la clase
+
+para acceder a esos atributos debo generar metodos
+
+-------------------------------------------
+136 - Ocultacion de metodos get - set
+-------------------------------------------
+-------------------------------------------
+137 - Implementando constructor
+-------------------------------------------
+
+-------------------------------------------
+138 - Sobrecarga de  constructor
+-------------------------------------------
+
+-------------------------------------------
+139-140 - metodo equals
+-------------------------------------------
+
+-------------------------------------------
+141 - metodo to string
+-------------------------------------------
+
+-------------------------------------------
+142 -143 - Atributos y metodos estaticos
+-------------------------------------------
+
+cuando cambio el valor de un valor estatico, cambia para todos.
+un atributo statico, debe tener metodos estaticos y viceversa
+
+-------------------------------------------
+144/145 - atributos y constantes finales
+-------------------------------------------
+
+    public  static final Integer VELOCIDAD_MAXIMA_CARRETERA = 120;
+    Los finals no pueden tener herencia
+
+-------------------------------------------
+146- Enumeradores
+-------------------------------------------
+    Coleccion de valores constantes.
+    Siempre va en mayuscula
+
+-------------------------------------------
+147 - Implementar enumerador mas completo
+-------------------------------------------
+    Coleccion de valores constantes.
+    Siempre va en mayuscula
+
+-------------------------------------------
+148 - Switch case con enum
+-------------------------------------------
+
+    switch mejorado para version 13 del jdk
+
+    switch(){
+        case uno ->
+            haciendo algo;
+        case dos ->
+            haciendo otra cosa;
+        case tres ->
+            haciendo el tercero;
+    }
+
+
+-------------------------------------------
+149 - Enum con foreach
+-------------------------------------------
+
+-------------------------------------------------------------
+150 - Diagrama de clases UML y relaciones de clases/objetos.
+-------------------------------------------------------------
+    Umbrello para hacer diagramas
+-------------------------------------------------------------
+151 - Creando clases relacionales
+-------------------------------------------------------------
+-------------------------------------------------------------
+152 - Modificando clases con atributos de relaciones de objetos.
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+153 - Soluciones a posibles errores NullpointerException
+-------------------------------------------------------------
+
+
+
+
