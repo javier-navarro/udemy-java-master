@@ -1,0 +1,20 @@
+=================================
+POO: paquetes
+=================================
+
+----------------------------------
+158 - Intro a los paquetes
+----------------------------------
+    Deben ir siempre en minuscula.
+    java.lang (de los mas importantes, aqui esta el core.)
+
+----------------------------------
+159 - Creando paquetes.
+----------------------------------
+----------------------------------
+160 - Control de acceso
+----------------------------------
+    public: accesde a cuaquier parte
+    default: solo para las clases que estan dentro del mismo paquete
+    protected: default + tambien las clases que heredan estos metodos
+    private: solo en la misma clase

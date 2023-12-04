@@ -1,0 +1,9 @@
+=======================================
+Seccion 20 - POO - Interfaces
+=======================================
+
+------------------------------------------------
+ 213 - Metodos default y staticos en interfaces
+------------------------------------------------
+    para tener metodos opcionales se ocupa default, en estos casos debe implementarse el metodo en la interface.
+

@@ -1,0 +1,53 @@
+=================================
+18 - POO: Herencia
+=================================
+
+-----------------------------------
+178 - Intro a Herencia
+-----------------------------------
+    que es poliformismo? --> diferentes formas de implementar un mismo comportamiento.
+    Todas las clases tienen un padre , pero heredan
+    no se puede aplicar herencia si no hay relacion familiar. (debe ser literal y coherente)
+    extends palabra clave
+    Directamente hereda siempre de 1 , pero indirectamente igual hereda la jerarquia.
+
+    Existen 2 formas para el proceso de jerarquia:
+        Generalizacion ->
+            2 o mas clases con atributos y metodos en comun, se hace una clase general y de ella
+            extienden las hijas que tendran los metodos y atributos propios.
+        Especializacion ->
+            es al revez , se deriba a una clase mas especifica.
+
+        super: clase hija puede ocupar metodos y atributos de clase padre.
+
+        sobreescritura de metodos (@override)
+
+        reestringir la herencia de clases mediante palabra final. (constantes tampoco)
+            ej: final public class Persona(){}
+
+
+-----------------------------------
+179 - Creando Jerarquia de clases
+-----------------------------------
+    protected: ocupar para ver los atributos del padre en la herencia o que esten en el mismo package
+
+-----------------------------------
+180 - Intro a Herencia
+-----------------------------------
+
+------------------------------------------------------------------------------
+184 - Creando instancias vía constructores con argumentos y control de tipos
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+185 - Sobre escritura de metodos en la herencia
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+188 - Sobre escritura de metodos en la herencia
+------------------------------------------------------------------------------
+    Modificador final termina la herencia, no lo permite.
+
+
+
+

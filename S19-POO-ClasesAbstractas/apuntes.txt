@@ -1,0 +1,24 @@
+=======================================
+19 - POO: Herencia y clases abstractas
+=======================================
+
+=======================================
+191 - Intro a clases abstractas
+=======================================
+    Clase que representa un concepto generico o conceptual y como tal, no debe ser ejemplarizada.
+    cuentan con metodos abstractos, parecido a sobreescritura.
+
+    cuando se hereda de una clase, se debe ocupar todos los metodos por defecto
+
+    declaracion : abstract public class
+
+    los metodos abstractos no se definen en la clase padre , si no que se implementan en el hijo.
+
+    las clases hijas de una clase abstracta deben implem,entar los metodos abstractos.
+    si la clase hija es abstracta, no te obliga a implementar el metodo.
+
+=======================================
+198 - Clases anonimas
+=======================================
+    solo pueden utilizarse una vez
+
