@@ -1,0 +1,47 @@
+========================================================
+Seccion 24 - Estructuras de datos API Coleccion de java
+========================================================
+
+------------------------------
+240- Intro
+------------------------------
+    Colecciones: Sirven para almacenar y agrupar objetos. Existen 2 grandes tipos Collection y map
+
+    Collection:
+        - List: Almacena objetos en una secuencia determinada.
+            - ArrayList: Lista volcada en un arreglo tamaño inicial de 10.
+                *de acceso rapido
+                *arraylist siempre agrega al final.
+                *eliminar o agregar no es muy practico.
+            - Linkedlist: Lista enlazada.
+                *facil para pilas y colas.
+                *problema para acceder a elementos al medio
+                *ideal para manipulacion.
+            - Vector: Parecido al arraylist es sincronizado, para trabajar con varios hilos.
+                *tiene un costo de rendimiento mas alto que los otros.
+                *utiliza equals para comparar si existen los elementos.
+
+        - Set: no permite elementos duplicados y no mantiene el orden de los elementos.
+            -Hashset: no es ordenado, no permite duplicado.
+            -TreeSet: ordenado, pero no permite duplicados.  (costo de rendimiento.)
+            -LinkedHashSet:lista enlazada (hashset + lista enlazada.)
+
+        - Map: almacenan valores en base a llave/valor.
+            deben implementar hashcode, son unicos
+            -hashsmap:
+            -treemap: mapa ordenado.
+            -linkedhashmap:
+
+    Métodos de Collection
+    - boolean add(Object) Agrega un elemento a la colección. Devuelve false si no se pudo agregar boolean addAll(Collection) Agrega una colección que se pasa por argumento.
+    - void clear() Elimina todos los elementos que componen la colección
+    - boolean contains(Object) Verdadero si la colección contiene el objeto que se pasa como
+        parámetro, utiliza el método equals() para ubicar el objeto
+    -boolean isEmpty() Verdadero si la colección está vacía, no contiene elementos
+    -Iterator iterator() Devuelve un objeto Iterator que se puede utilizar para avanzar a través de los elementos
+    -boolean remove(Object) Elimina un elemento de la colección y devuelve true si se ha conseguido
+    -boolean removeAll(Collection) Elimina todos los elementos que están contenidos en el argumento. Devuelve true si consigue eliminar cualquiera de ellos
+    -boolean retainAll(Collection) Mantiene solamente los elementos que están contenidos en el argumento, es lo que sería una intersección en la teoría de conjuntos. Devuelve verdadero en caso de que se produzca algún cambio
+    -int size() Devuelve el número de elementos que componen la colección
+    -Object[] toArray()
+

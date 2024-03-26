@@ -1,0 +1,25 @@
+===================================
+Seccion 23 - Manejo Excepciones
+===================================
+
+------------------------------
+233- Intro a excepciones.
+------------------------------
+    * Nos permite separar el codigo.
+    * Permite manejar el error y continuar con la ejecucion del programa.
+    * Agrupar y diferenciar entre diferentes tipos de error.
+    * Propagar errores hacia arriba en la pila de llamadas (Stacktree).
+
+    try --> bloque que lanza la excepcion
+    catch --> aca manejamos el error
+    finally --> bloque opcional, se ejecuta siempre
+
+    try {
+
+    }catch(exeption ex){
+
+    }finally {
+
+    }
+
+    SIEMPRE SE DEBE IR DE LO GENERICO A LO ESPECIFICO.
