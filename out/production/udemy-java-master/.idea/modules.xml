@@ -3,13 +3,21 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/POO-EjemploFacturas/POO-EjemploFacturas.iml" filepath="$PROJECT_DIR$/POO-EjemploFacturas/POO-EjemploFacturas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S20-POO-Interfaces/ProyectoCatalogo/ProyectoCatalogo.iml" filepath="$PROJECT_DIR$/S20-POO-Interfaces/ProyectoCatalogo/ProyectoCatalogo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S19-POO-ClasesAbstractas/ProyectoMamiferos/ProyectoMamiferos.iml" filepath="$PROJECT_DIR$/S19-POO-ClasesAbstractas/ProyectoMamiferos/ProyectoMamiferos.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProyectoOrdenCompra/ProyectoOrdenCompra.iml" filepath="$PROJECT_DIR$/ProyectoOrdenCompra/ProyectoOrdenCompra.iml" />
       <module fileurl="file://$PROJECT_DIR$/S18-POO-Herencia/S18-POO-Herencia.iml" filepath="$PROJECT_DIR$/S18-POO-Herencia/S18-POO-Herencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S19-POO-ClasesAbstractas/S19-POO-ClasesAbstractas.iml" filepath="$PROJECT_DIR$/S19-POO-ClasesAbstractas/S19-POO-ClasesAbstractas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S20-POO-Interfaces/S20-POO-Interfaces.iml" filepath="$PROJECT_DIR$/S20-POO-Interfaces/S20-POO-Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S21-POO-InterfacesRepository/S21-POO-InterfacesRepository.iml" filepath="$PROJECT_DIR$/S21-POO-InterfacesRepository/S21-POO-InterfacesRepository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23-ManejoExcepciones/S23-ManejoExcepciones.iml" filepath="$PROJECT_DIR$/S23-ManejoExcepciones/S23-ManejoExcepciones.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion17-POO-SobrecargaMetodos/Seccion17-POO-SobrecargaMetodos.iml" filepath="$PROJECT_DIR$/Seccion17-POO-SobrecargaMetodos/Seccion17-POO-SobrecargaMetodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion3/Seccion3.iml" filepath="$PROJECT_DIR$/Seccion3/Seccion3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion4/Seccion4.iml" filepath="$PROJECT_DIR$/Seccion4/Seccion4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion5_flujosDeControl/Seccion5_flujosDeControl.iml" filepath="$PROJECT_DIR$/Seccion5_flujosDeControl/Seccion5_flujosDeControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion7-ValorVsReferencia/Seccion7-ValorVsReferencia.iml" filepath="$PROJECT_DIR$/Seccion7-ValorVsReferencia/Seccion7-ValorVsReferencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S18-POO-Herencia/tarea20/tarea20.iml" filepath="$PROJECT_DIR$/S18-POO-Herencia/tarea20/tarea20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S18-POO-Herencia/tarea21/tarea21.iml" filepath="$PROJECT_DIR$/S18-POO-Herencia/tarea21/tarea21.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/udemy-java-master.iml" filepath="$PROJECT_DIR$/.idea/udemy-java-master.iml" />
     </modules>
   </component>
