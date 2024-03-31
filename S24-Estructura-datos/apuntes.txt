@@ -45,3 +45,28 @@ Seccion 24 - Estructuras de datos API Coleccion de java
     -int size() Devuelve el número de elementos que componen la colección
     -Object[] toArray()
 
+
+------------------------------
+244 -
+------------------------------
+    ** los primitivos no se pueden comparar con null.
+    Hashset no es ordenado , atraves de equals y hashcode
+
+    TreeSet --> arbol balanceado que ordena y compara mediante el ordenamiento que le demos.
+    HashSet --> Desordenada Valida que sea unico mediante equals y hashcode
+
+--------------------------------------------------------------------------
+246 - Formas de loop o intereracciones en los colections set y list
+--------------------------------------------------------------------------
+
+    los set no pueden lanzar el metodo get. , solo funcionan con listas
+
+--------------------------------------------------------------------------
+248 - Ejemplo arraylist, metoos mas importantes
+--------------------------------------------------------------------------
+    *LIST
+    para eliminar por instancia  utiliza el equals.
+    elimina por posicion por indice.
+
+
+Lun 29 Ago 2021 05:39 hrs
