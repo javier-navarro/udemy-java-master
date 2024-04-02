@@ -1,0 +1,47 @@
+========================================================
+Seccion 25 - Threads: Hilos y Concurrencia
+========================================================
+
+--------------------------------------------------------
+257 - Introduccion a Threads
+--------------------------------------------------------
+Son objetos, instancias de objetos que nos dan capacidad de hacer mas de una tarea al mismo tiempo. dependen de concurrencia y paralelismo.
+
+    Caracteristicas
+        - Multi-thread capaz de ejecutar varias taeas simultaneas.
+        - java soporta Thread con clases e interfaces.
+        - JVM gestiona todos los detalles similar a un sistema operativo
+
+    Ciclo de vida de un Thread
+        -New: creado pero no iniciado
+        -Runneable: cuando se ah iniciado con start()
+        -BLoqueado: no esta capacitado para ejecutarse, esta esperando el termino de otro hilo
+        -Waiting: esperando que un hilo realice alguna accion particular. - metodos wait(), join().
+
+    Metodos
+        -wait: Libera el bloqueo para que otros hilos tengan acceso a un recurso compartido(sincronizado), hasta que se gatillen los otros metodos
+        -notify, notifyAll: Se usa para despertar los hilos que estan esperando acceso a algun recurso compartido
+        -sleep: pausa el hilo durante algun tiempo , y queda en "timed_waiting", no libera el recurso
+
+    *METODO WAIT Y NOTIFY FUNCIONAN CON SYNCRONIZED
+
+    timer: permite programar tareas con tiempo
+
+    EXECUTOR FRAMEWORK:
+        optimiza y se preocupa de todo la mantencion , ejecucion y desarrollo de nuestros hilos.
+
+       METODOS...
+            -executor:
+            -executorService:
+--------------------------------------------------------------------------------------
+271 - Executor Framework - personalizando parametros del pool con ThreadPoolExecutor
+--------------------------------------------------------------------------------------
+    declaracion -> ThreadPoolExecutor executor = (ThreadPoolExecutor) Executors.newFixedThreadPool(2);
+    METODOS
+        -setCorePoolSize:
+        -setKeepAliveTime:
+        -setMaximunPoolSize:
+        -getPoolSize: tamaño del pool
+        -getQueue: Cantidad de tareas en cola
+
+
