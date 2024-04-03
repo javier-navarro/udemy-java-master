@@ -1,0 +1,5 @@
+===============================================================
+Seccion 26 - Java 8 programacion funcional: Expresiones Lambda
+===============================================================
+    LAMBDA ->
+        METODO SIN NECESIDAD DE OCUPAR UNA CLASE, ES UNA INTERFAZ FUNCIONAL.
