@@ -1,0 +1,26 @@
+===============================================================
+Seccion 27 - Java 8 programacion funcional: API Stream
+===============================================================
+    Stream:
+        Combina las mejores ideas del iterator y la programacion funcional para implementar flujos de datos.
+        No sirven para almacenar datos.
+        Sirven para transmitir informacion como un canal de entrada y salida.
+
+        Crea flujos de datops continuos.
+        Los Operadores reducen notablemente las tareas de transformaciones.
+        Transforma y compone flujos con los operadores
+            map: manipular o modificar
+            filter: filtrado
+            concat: concatenacion
+            distinct -> para evitar elementos repetidos,
+            (flatmap, sorted) --> ordenar,
+            foreach -> iterar,
+            reduce -> operacion matematicaa, etc.
+        Pueden ser creados desde listas, arreglos o rangos
+        Son inmutables: Se devuelve una nueva instancia.
+        Concurrencia hecho facil
+
+        TRABAJA CON FLUJO DE DATOS CONTINUO.
+        LOS OPERADORES REDUCEN LAS TAREAS DE TRANSFORMACIONES
+
+    MAP
