@@ -1,0 +1,21 @@
+===============================================================
+Seccion 29 - DATE TIME
+===============================================================
+    Api muy clara , concisa y facil de entender como la numeracion de los campos.
+    Tiene muchas representaciones de tiempo diferentes, cada una adecuada para diferentes casos de uso
+    inmutable
+    seguridad del hilo
+
+    Representacion
+    -Instant: representa un punto en el tiempo
+    -LocalDate: representa una fecha(año,mes,dia)
+    -LocalDateTime: LocalDate + hora con precision de nanosegundos
+    -OffSetDateTime: LocalDateTime, pero ajusta con zona horaria
+    -LocalTime: hora con precision de nanosegundos, pero sin fecha
+    -ZonedDateTime_: OffSetDateTime + ID zona horaria
+    -OffSetLocalTime : LocalTime, pero con ajuste zona horaria
+    -MonthDay: mes y dia sin año ni hora
+    -YearMonth: mes a444444ño, sin año ni hora
+    -Duration: cantidad de tiempo representada en segundos, minutos y horas. precision de nanosegundos.
+    -Period: Cantidad de tiempo representada en dias, meses y años
+    -DateTimeFormatter: para dar formatos a nuestras fechas.
