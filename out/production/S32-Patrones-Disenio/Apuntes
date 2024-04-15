@@ -1,0 +1,13 @@
+=============================================
+S32 - Patrones de diseño
+=============================================
+    Son fragmentos de codigo que nos permiten solucionar problemas enfocado a poo.
+
+    CREACIONALES
+        singleton : crea una sola instancia (para bd generalmente)
+        Abstract factory: para crear familias de objetos. Debe ser escalable
+    ESTRUCTURALES
+        -Decorator: Finalidad darle una funcionanlidad dinamica sin herencia. es eficiente
+        -Composite: Sirve para construir objetos complejos a partir de otros mas simples y similares entre si, que tengan algo en comun.
+    DE CONPORTAMIENTO:
+        -Observer : tambien es estructural. Define una dependencia  1 a muchos entre objetos. Cuando uno de los objetos cambia de estado, notifica al resto dependiente.
