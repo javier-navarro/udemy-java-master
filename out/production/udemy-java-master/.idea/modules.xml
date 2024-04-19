@@ -11,13 +11,29 @@
       <module fileurl="file://$PROJECT_DIR$/S20-POO-Interfaces/S20-POO-Interfaces.iml" filepath="$PROJECT_DIR$/S20-POO-Interfaces/S20-POO-Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/S21-POO-InterfacesRepository/S21-POO-InterfacesRepository.iml" filepath="$PROJECT_DIR$/S21-POO-InterfacesRepository/S21-POO-InterfacesRepository.iml" />
       <module fileurl="file://$PROJECT_DIR$/S23-ManejoExcepciones/S23-ManejoExcepciones.iml" filepath="$PROJECT_DIR$/S23-ManejoExcepciones/S23-ManejoExcepciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S24-Estructura-datos/S24-Estructura-datos.iml" filepath="$PROJECT_DIR$/S24-Estructura-datos/S24-Estructura-datos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S25_Threads/S25_Threads.iml" filepath="$PROJECT_DIR$/S25_Threads/S25_Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S26-Java8-ExpresionesLanda/S26-Java8-ExpresionesLanda.iml" filepath="$PROJECT_DIR$/S26-Java8-ExpresionesLanda/S26-Java8-ExpresionesLanda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S27-Java8-ApiStream/S27-Java8-ApiStream.iml" filepath="$PROJECT_DIR$/S27-Java8-ApiStream/S27-Java8-ApiStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S28-Java8-Optional/S28-Java8-Optional.iml" filepath="$PROJECT_DIR$/S28-Java8-Optional/S28-Java8-Optional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S29-Java8-DateTime/S29-Java8-DateTime.iml" filepath="$PROJECT_DIR$/S29-Java8-DateTime/S29-Java8-DateTime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S30-Java-Anotaciones/S30-Java-Anotaciones.iml" filepath="$PROJECT_DIR$/S30-Java-Anotaciones/S30-Java-Anotaciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S31-Recursividad/S31-Recursividad.iml" filepath="$PROJECT_DIR$/S31-Recursividad/S31-Recursividad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S32-Patrones-Disenio/S32-Patrones-Disenio.iml" filepath="$PROJECT_DIR$/S32-Patrones-Disenio/S32-Patrones-Disenio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S33-ManejoArchivos/S33-ManejoArchivos.iml" filepath="$PROJECT_DIR$/S33-ManejoArchivos/S33-ManejoArchivos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion17-POO-SobrecargaMetodos/Seccion17-POO-SobrecargaMetodos.iml" filepath="$PROJECT_DIR$/Seccion17-POO-SobrecargaMetodos/Seccion17-POO-SobrecargaMetodos.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion3/Seccion3.iml" filepath="$PROJECT_DIR$/Seccion3/Seccion3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion4/Seccion4.iml" filepath="$PROJECT_DIR$/Seccion4/Seccion4.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion5_flujosDeControl/Seccion5_flujosDeControl.iml" filepath="$PROJECT_DIR$/Seccion5_flujosDeControl/Seccion5_flujosDeControl.iml" />
       <module fileurl="file://$PROJECT_DIR$/Seccion7-ValorVsReferencia/Seccion7-ValorVsReferencia.iml" filepath="$PROJECT_DIR$/Seccion7-ValorVsReferencia/Seccion7-ValorVsReferencia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S29-Java8-DateTime/Tarea/Tarea.iml" filepath="$PROJECT_DIR$/S29-Java8-DateTime/Tarea/Tarea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S25_Threads/Tarea28/Tarea28.iml" filepath="$PROJECT_DIR$/S25_Threads/Tarea28/Tarea28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S26-Java8-ExpresionesLanda/Tarea29/Tarea29.iml" filepath="$PROJECT_DIR$/S26-Java8-ExpresionesLanda/Tarea29/Tarea29.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S27-Java8-ApiStream/Tarea31/Tarea31.iml" filepath="$PROJECT_DIR$/S27-Java8-ApiStream/Tarea31/Tarea31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S23-ManejoExcepciones/interfacesRepositoryException/interfacesRepositoryException.iml" filepath="$PROJECT_DIR$/S23-ManejoExcepciones/interfacesRepositoryException/interfacesRepositoryException.iml" />
       <module fileurl="file://$PROJECT_DIR$/S18-POO-Herencia/tarea20/tarea20.iml" filepath="$PROJECT_DIR$/S18-POO-Herencia/tarea20/tarea20.iml" />
       <module fileurl="file://$PROJECT_DIR$/S18-POO-Herencia/tarea21/tarea21.iml" filepath="$PROJECT_DIR$/S18-POO-Herencia/tarea21/tarea21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/S24-Estructura-datos/tarea27/tarea27.iml" filepath="$PROJECT_DIR$/S24-Estructura-datos/tarea27/tarea27.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/udemy-java-master.iml" filepath="$PROJECT_DIR$/.idea/udemy-java-master.iml" />
     </modules>
   </component>

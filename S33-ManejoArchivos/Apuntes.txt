@@ -1,0 +1,11 @@
+=============================================
+S33 - Manejo Archivos
+=============================================
+
+Filewritter : por cada invocacion, va al sistema y escribe en el disco, no es muy optimo.
+bufferwritter: acumula cierta cantidad de caracteres, cuando este se llena ahi recien escribe en el disco.
+PrintWriter: mejor opcion, ademas que puede ocupar las caracteristicas de println y printf
+
+Lectura de archivos
+    1 - con Stringbuilder y BufferedReader
+    2- Scanner

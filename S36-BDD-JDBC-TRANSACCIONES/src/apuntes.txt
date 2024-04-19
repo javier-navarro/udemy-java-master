@@ -1,0 +1,22 @@
+==========================================================
+S35 - JDBC - Pool de conexiones
+==========================================================
+TRANSACCIONES:
+    Conjunto de operaciones sonre la bd que se deben ejecutar como una unidad.
+
+    Varias sentencias se ejecutan en un bloque de ejecucion sobre la bd
+
+    Si alguna de las sentencias falla en su ejecucion , podemos dar marcha atras con rollback a todo el bloque.
+
+    Se ejecutan todas las instrucciones o ninguna
+
+    Si todo se ejecuta correctamente aplicamos los cambios sobre las tablas realizando el commit de todo el bloque.
+
+PASOS PARA REALIZAR UNA TRX JDBC
+    Cambiar la propiedad de autocommit a false
+
+    Si todo sale bien realizamos un commit para guardar los canbios en la bd
+
+    si falla alguna sentencoa realizamos rollback para revertir cambios
+
+    Al cerrar la conexion se realiza un commit automatico, inclusive si la propiedad autocommit esta en false.

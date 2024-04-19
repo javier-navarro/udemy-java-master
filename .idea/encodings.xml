@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/S34-BDD-JDBC/S34-BDD-JDBC-close/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S34-BDD-JDBC/S34-BDD-JDBC-close/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S34-BDD-JDBC/Tarea37/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S34-BDD-JDBC/Tarea37/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S34-BDD-JDBC/bdd-jdbc-close/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S34-BDD-JDBC/bdd-jdbc-close/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S34-BDD-JDBC/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S34-BDD-JDBC/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S35-BDD-JDBC-pool/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S35-BDD-JDBC-pool/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S36-BDD-JDBC-TRANSACCIONES/bdd-jdbc-pool-trx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S36-BDD-JDBC-TRANSACCIONES/bdd-jdbc-pool-trx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S36-BDD-JDBC-TRANSACCIONES/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S36-BDD-JDBC-TRANSACCIONES/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S37-UnitTesting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S37-UnitTesting/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+==========================================================
+S35 - JDBC - Pool de conexiones
+==========================================================
+
+Clase datasource mantiene abiertas un conjunto limitado de conexiones a la bd
+
+declaracion  --> private static BasicDataSource pool;
+
+            pool = new BasicDataSource();
+            pool.setUrl(url);
+            pool.setUsername(username);
+            pool.setPassword(password);
+            pool.setInitialSize(3);
+            pool.setMinIdle(3);
+            pool.setMaxIdle(8);
+            pool.setMaxTotal(8);
