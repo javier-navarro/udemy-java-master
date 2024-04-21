@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: org.jnavarro.junit5app.ejemplos.models.CuentaTest
+-------------------------------------------------------------------------------
+Tests run: 68, Failures: 3, Errors: 1, Skipped: 7, Time elapsed: 10.512 s <<< FAILURE! - in org.jnavarro.junit5app.ejemplos.models.CuentaTest
+testTimeOut  Time elapsed: 5.014 s  <<< ERROR!
+java.util.concurrent.TimeoutException: testTimeOut() timed out after 5 seconds
+
+testDebitoCuentaCsvSource2{String, String}[6]  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.jnavarro.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadas.testDebitoCuentaCsvSource2(CuentaTest.java:337)
+
+testDebitoCuentaCsvFileSource{String}[7]  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.jnavarro.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadas.testDebitoCuentaCsvFileSource(CuentaTest.java:346)
+
+testDebitoCuentaCsvFileSource2{String}[7]  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.jnavarro.junit5app.ejemplos.models.CuentaTest$PruebasParametrizadas.testDebitoCuentaCsvFileSource2(CuentaTest.java:355)
+

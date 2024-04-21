@@ -1,0 +1,112 @@
+===============================================
+ S37 - Unit Testing - JUnit5
+===============================================
+
+Diseño : casos de uso , diagramas
+Escribir codigo
+Probar el codigo
+
+Que son las pruebas unitarias
+    Son un proceso de examen para verificar un apieza de codigo cumple con ciertas reglas de negocio
+    y afirmar un resultado esperado
+
+JUnit
+    Libreria de java para escribir y ejecutar repetibles pruebas unitarias de nuestro codigo
+    y ejecutarlas en la JVM. Utiliza programacion funcional y lambda e incluye varios estilos
+    diferentes de pruebas, configuraciones, anotaciones , ciclo de vida , etc
+
+===============================================
+ARQUITECTURA DE JUnit5
+===============================================
+
+    JUNIT PLATAFORM :
+        Es el core, asociada al contexto de ejecucion. Es quien lanza la ejecucion.
+
+    JUNIT JUPITER:
+        Es el api con el que interactuan los desarrolladores
+        Agrega nuevo modelo de caracteristicas en JUnit5
+        Nuevas anotaciones y estilos de testing
+        permite escribir extensiones
+
+    JUNIT VINTAGE:
+        componente que nos permite integrar versiones anteriores con la version 5
+
+    CREACION DE TEST.
+        DAR ALT + INS EN LA CLASE Y ELEGIR CREAR TEST.
+
+        assert para los diferentes tests.
+        para anidar ocupamos assertAll asi poder saber que fallo.
+
+    AGREGANDO MENSAJES DE ERROR CUANDO FALLA UN ASSERT
+        en la definicion del assert, se agrega como parametro el string.
+
+        ===============================================
+        @ANOTACIONES
+        ===============================================
+        test: define el test
+        displayname: la da un alias para el nombnre de la ejecucion
+        disabled: deshabilita el test
+
+        ----------------------------
+        Ciclo de vida
+        ----------------------------
+        Hook: eventos
+
+        @Beforeall: Se ejecuta al inicio de la clase
+        @BeforeEach: Cada vez que se inicia la ejecucion de un test
+        @AfterEach: Cada vez que se termina la ejecucion de un test
+        @AfterAll: Se ejecuta al final
+
+
+        ----------------------------
+        CONDICIONALES
+        ----------------------------
+        @EnabledOnOs: habilitado para cierto sistema op
+        @EnabledOnJre: habilitado para cierta version de java
+        @EnabledIfSystemProperty
+        @DisableOnOs: deshabilitado para cierto sistema op
+        @EnabledIfEnvironmentVariable: valida variables de ambiente
+
+        @Nested: para anidar clases, sirve para ordenar y categorizar las clases
+            si falla alguno de los test anidados, falla toda la clase.
+
+        @RepeatedTest: Para repetir nuestros test, se reemplaza el @Test
+        @ParameterizedTest: se reemplaza el test
+            - valuesource:
+            - CsvSource
+            - CsvFileSource
+            - MethodSource
+
+        @tag: sirve para etiquetar y ejecutar por etiqueta.
+        para esto entramos a la configuracion y elegimos la opcion tags y ejecutamos.
+
+
+        ===============================================
+        METODO
+        ===============================================
+        fail(): hace que falle el test
+        assumeTrue(): no falla, deshabilita la prueba. No se ejecuta nada de lo que esta abajo,
+            solo se ejecuta si esque es true
+
+        Por inyeccion de dependencias, se pasan como parametro de entrada
+
+            testinfo: contiene toda la info de nuestra prueba
+            testReporter: da un reporte detallado.
+
+        timeout: para emular los timers.
+
+EJECUCCION PRUEBAS
+    -AGREGAR AL POM
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.2</version>
+
+    -CONFIGURACION MAVEN VIDEO 388.
+
+
+
+
+
+
+
+
