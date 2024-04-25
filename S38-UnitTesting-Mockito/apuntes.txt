@@ -1,0 +1,21 @@
+===================================================
+S38 - UNIT TESTING - MOCKITO
+===================================================
+MOCKITO:
+    Framework de pruebas que nos permite crear objetos simulados(mock)
+    en un entorno controlado y determinado.
+
+    spy es un hibrido entre los reales y los mocks.
+
+    solo podemos hacer mock de metodos publicos o default
+
+    verifi: sirve para verificar si se invoco algun mock
+
+
+INYECCION DE DEPENDENCIAS CON MOCKITO.
+
+    para habilitar las anotaciones mockito
+        MockitoAnnotations.openMocks(this); en el metodo inicial.
+
+    otra forma es darle la anotacion  a la clase , eliminamos la habilitacion de anotaciones conesto
+        @ExtendWith(MockitoExtension.class)

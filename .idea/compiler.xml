@@ -11,6 +11,7 @@
         <module name="bdd-jdbc-close" />
         <module name="bdd-jdbc-pool-trx" />
         <module name="S37-UnitTesting" />
+        <module name="S38-UnitTesting-Mockito" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

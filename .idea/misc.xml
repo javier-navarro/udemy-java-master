@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/S35-BDD-JDBC-pool/pom.xml" />
         <option value="$PROJECT_DIR$/S36-BDD-JDBC-TRANSACCIONES/pom.xml" />
         <option value="$PROJECT_DIR$/S37-UnitTesting/pom.xml" />
+        <option value="$PROJECT_DIR$/S38-UnitTesting-Mockito/pom.xml" />
       </list>
     </option>
   </component>
