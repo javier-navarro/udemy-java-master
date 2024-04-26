@@ -1,0 +1,61 @@
+=============================================
+S34 - BDD - JDBC
+=============================================
+QUE ES SQL
+    Lenguaje de consulta estructurada utilizado un administrar y acceder a datos de un sistema
+    de gestion de bds relacionales (RDBMS)
+
+    Consiste en un lenguaje de definicion de datos DDL , un lenguaje de manipulacion de datos DML
+    y un lenguaje de control de datos
+
+    Es universal, independiente del motor de bd en cuestion
+
+    Lenguaje declarativo
+
+    Insercion de datos, actualizaciones y borrado, creacion y modificacion de esquemas y el control
+    de acceso a datos
+
+SENTENCIAS DML SQL
+
+    DML: Data manipulation Language. Lenguaje declarativo para realizar consultas  y o manipular datos
+    Entre estas sentencias se incluyen
+        SELECT
+        INSERT
+        UPDATE
+        DELETE
+
+SENTENCIAS DDL SQL
+    Sirven para definir o crear, modificacion nuestro esquema de BD, TABLAS , COLUMNAS RELACIONES O REGLAS.
+    Entre las sentencias incluye:
+        CREATE
+        ALTER
+        DROP
+        TRUNCATE
+
+JDBC (Java Database Connectivity)
+    Es una api que permite la ejecucion de operaciones y comnsultas sobre
+    bd desde java
+
+    Inndependiente del SO donde se ejecuta ode la bd a la cual se accede.
+
+    Es una coleccion de interfaces Java y metodos para la gestion y conexion hacia cada motor especifico.
+
+    Cada proveedor de BD debe implementar su propio driver.
+
+    CLASES O DATOS DE JDBC
+
+        DRIVER: Permite conectarse a una bd, son distintos para cada motor
+        DRIVERMANAGER: Permite gestionar los drivers instalados em el sistema
+        CONNECTION: Representa la conexion con la bd. Una app puede tener mas de 1
+        DATABASEMETADATA: proporciona la info acerca de una BD
+        STATEMENT: Permite ejecutar sentencias SQL sin parametros
+        PREPAREDSTATEMENT: Permite ejecutar sentencias SQL con parametros
+        CALLABLESTATEMENT:Permite ejecutar sentencias SQL con y sin parametros, generalmente sps.
+        RESULSET: Contiene filas o registros obtenidos al ejecutar una sentencia Select
+        RESULSETMETADATA: Permite obtener info sobre un resulset.
+
+    CONEXION:
+        url
+        username
+        password
+

@@ -1,0 +1,50 @@
+==================================================================
+S38 - INTRODUCCION JAVA EE: JAKARTA
+==================================================================
+---------------------
+HTTP:
+---------------------
+	Protocolo de trasnferencia de hipertexto , permite la comunicacion entre cliente(navegador web) y servidor en la world wide web
+	-> request
+	<- response
+
+	METODOS
+		-GET
+		-POST
+		-PUT
+		-DELETE
+
+	CABECERAS (REQUEST)
+		metadata que se envia junto al request.
+
+	CABECERAS RESPONSE
+		contentype de respuesta.
+
+	CODIGOS DE ESTADO DE RESPUESTA
+		status 200 ok
+
+---------------------
+jakarta EE9
+---------------------
+	Desde la version 8, cambia de nombre y deja de ser parte de oracle
+	Conjunto de especificaciones, parte de la plataforma Java, para desarrollar y ejecutar aplicaciones web utilizando arquitecturas de N capas
+que se despliegan sobre un servidor de aplicaciones.
+
+capa web MVC -> JSP y JSF - Servlets - Model
+capa servicio -> EJBs - Servicios Rest
+capa datos -> Repositorios - Objetos JPA - JDBC
+
+	CARACTERISTICAS
+	- Componente Web
+	- Interoperabilidad
+	-Control de concurrencia
+	-Transaccionalidad
+	-Persistencia JPA 3.0
+	-Inyeccion de dependencias CDI 3.0
+	- EJB 4.0
+	- Comunicacion remota
+	- Seguridad
+	- Eventos utilizando JMS(Java messaging service)
+	- Servicios de nombres y de directorio JNDI
+	- JAX-WS SOAP
+	- JAX-RS Rest

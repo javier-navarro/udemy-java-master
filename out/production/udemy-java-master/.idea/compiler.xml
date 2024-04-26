@@ -6,6 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Tarea37" />
+        <module name="S39-jakarta-servlet" />
+        <module name="S35-BDD-JDBC-pool" />
+        <module name="bdd-jdbc-close" />
+        <module name="bdd-jdbc-pool-trx" />
+        <module name="S37-UnitTesting" />
+        <module name="S38-UnitTesting-Mockito" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

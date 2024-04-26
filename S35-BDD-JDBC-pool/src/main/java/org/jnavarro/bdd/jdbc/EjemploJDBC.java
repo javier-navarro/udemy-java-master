@@ -11,7 +11,7 @@ import java.util.Date;
 
 public class EjemploJDBC {
     //segunda forma de hacerlo.
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
             ProductoRepositorio<Producto> repositorio = new ProductoReposiorioImpl();
 

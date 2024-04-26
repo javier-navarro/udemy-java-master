@@ -1,0 +1,48 @@
+==============================================================
+S40 - jakarta - Api servlet introduccion
+==============================================================
+SERVLET
+
+   Clase y objeto java utilizando para implementar una pagina web dinamica con caracteristicas HTTP de peticion y respuesta.
+   El contenedor web es quien guarda los servlets.
+   El servlet sirve tanto como vista como controlador.
+   El servlet no debe tener un estado.
+
+   PATRON MVC
+    el contexto de la app cae por el servlet y se encarga de maquinar todo
+
+   REQUEST
+    - Informacipon que es enviada desde un cliente hacia un servidor
+    - datos ingresados y enviados por el user
+    - metodo HTTP
+    - cabeceras HTTP (headers)
+
+   RESPONSE
+   - Informacion que es enviada al cliente desde el servidor
+   - texto(html,plain,json,xml) o datos binarios(imagenes,pdf,videos)
+   - HTTP headers,cookies,etc.
+
+   METODOS HTTP SOPORTADOS POR SERVLET
+       1- doDelete
+       2- doGet
+       3- doHead
+       4- doOptions
+       5- doPost
+       6- doPut
+       7- doTrace
+
+   CLASES E INTERFACES DEL SERVLET
+       Servlet
+            <- GenericServlet   -> ServletResponse -> HttpServletResponse
+                                -> ServletRequest  -> HttpServletRequest
+
+            (emite a GenericServlet)HttpServlet -> HttpServletResponse
+                                                -> HttpServletRequest
+
+   CICLO DE VIDA DE UN SERVLET
+    Se compila y registra en el contenedor
+    init()
+    service() : en cada request se crea un hilo
+    destroy(): destruye o cierra
+
+

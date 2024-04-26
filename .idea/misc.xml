@@ -9,7 +9,15 @@
         <option value="$PROJECT_DIR$/S36-BDD-JDBC-TRANSACCIONES/pom.xml" />
         <option value="$PROJECT_DIR$/S37-UnitTesting/pom.xml" />
         <option value="$PROJECT_DIR$/S38-UnitTesting-Mockito/pom.xml" />
+        <option value="$PROJECT_DIR$/S38-jakarta-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/S39-jakarta-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea38Servlet/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/S39-jakarta-servlet/Tarea38/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="true" project-jdk-name="14" project-jdk-type="JavaSDK">
