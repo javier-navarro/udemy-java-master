@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Tarea39" />
         <module name="Tarea37" />
         <module name="S39-jakarta-servlet" />
+        <module name="S41-jakarta-webapp-form" />
         <module name="S35-BDD-JDBC-pool" />
         <module name="Tarea38Servlet" />
         <module name="bdd-jdbc-close" />
