@@ -12,6 +12,7 @@
         <module name="S41-jakarta-webapp-form" />
         <module name="S35-BDD-JDBC-pool" />
         <module name="Tarea38Servlet" />
+        <module name="S42-jakarta-webapp-cabeceras" />
         <module name="bdd-jdbc-close" />
         <module name="bdd-jdbc-pool-trx" />
         <module name="S37-UnitTesting" />
