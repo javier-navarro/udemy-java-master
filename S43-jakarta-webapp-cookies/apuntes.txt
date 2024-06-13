@@ -1,0 +1,34 @@
+============================================
+S43- Jakarta - Servlet - Manejo de Cookies
+============================================
+
+Cookies
+	Datos del usuario almacenados en el navegador web(lado del cliente) y los servidores la utilizan cuando se comunican en el cliente.
+
+Manejo de estados
+	Las cookies permiten mantener info del usuario entre peticiones y poder recordarlas.
+	Existen 2 forma de mantener info, una es usando cookies y otra el objeto HttpSesion del api servlet
+	NO DEBEN UTILIZARSE PARA INFO SENSIBLE.
+
+CREACION DE COOKIE
+Cookie cokkie = new Cookie("username","andres");
+response.addCookie(cokkie);
+
+ELIMINAR COOKIE -> se crear con el mismo nombre, pero se le agrega maxage cero para que expire
+Cookie cokkie = new Cookie("username","andres");
+cokkie.setMaxAge(0);
+response.addCookie(cokkie);
+
+setdomain () para modificar el dominio
+getdomain () para ver el dominio.
+
+setMaxAge(int seg):
+getMaxAge()
+
+setPath(String path): modificar path de la cookie.
+getPath()
+
+setValue(): modificar valor cookie
+getValue(): ver valor de la cookie
+
+getName(): ver nombre cookie.

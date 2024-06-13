@@ -1,0 +1,8 @@
+org\jnavarro\apiservlet\webapp\headers\service\LoginService.class
+org\jnavarro\apiservlet\webapp\headers\service\LoginServiceImpl.class
+org\jnavarro\apiservlet\webapp\headers\controllers\LoginServlet.class
+org\jnavarro\apiservlet\webapp\headers\controllers\ProductoServlet.class
+org\jnavarro\apiservlet\webapp\headers\controllers\LogoutServlet.class
+org\jnavarro\apiservlet\webapp\headers\service\ProductoService.class
+org\jnavarro\apiservlet\webapp\headers\service\ProductoServiceImpl.class
+org\jnavarro\apiservlet\webapp\headers\models\Producto.class
