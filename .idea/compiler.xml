@@ -21,6 +21,8 @@
         <module name="S44-jakarta-webapp-session" />
         <module name="S38-UnitTesting-Mockito" />
         <module name="S43-jakarta-webapp-cookies" />
+        <module name="S50-jakarta-webapp-JSTL" />
+        <module name="S51-jakarta-webapp-layout" />
         <module name="S39-jakarta-servlet" />
         <module name="S41-jakarta-webapp-form" />
         <module name="Tarea42" />

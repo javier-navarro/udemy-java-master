@@ -1,0 +1,38 @@
+===========================================
+S50- Jakarta - Servlet -JSTL
+===========================================
+
+JSTL:
+
+para ocupar jstl se agregan las siguientes dependencias al pom
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>2.12.3</version>
+    </dependency>
+    <dependency>
+        <groupId>org.glassfish.web</groupId>
+        <artifactId>jakarta.servlet.jsp.jstl</artifactId>
+        <version>2.0.0</version>
+    </dependency>
+
+ En las vistas jsp ya no es necesario hacer el import
+se agrega la etiqueta de jstl
+    -> <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+Esto  <% if(username.isPresent()){%> cambia por
+    ->  <c:if test="${username.isPresent()}">
+
+<div> Hola <%=username.get()%>, Bienvenido!! </div>
+<div> Hola <c:out value="${username.get()}">, Bienvenido!! </div>
+
+
+
+<% for(Producto p: productos) {%>
+<c:forEach items="${productos}" var="p">
+
+etiqueta out: permite imprimir un valor, pero es opcional, funciona solo con la expresion.
+por ejemplo eso, son lo mismo
+
+<c:out value="${username.get()}"/>
+${username.get()}
