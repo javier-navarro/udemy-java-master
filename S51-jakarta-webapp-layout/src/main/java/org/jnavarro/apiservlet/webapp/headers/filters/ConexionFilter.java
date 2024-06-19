@@ -5,6 +5,7 @@ import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpServletResponse;
 import org.jnavarro.apiservlet.webapp.headers.service.ServiceJdbcException;
 import org.jnavarro.apiservlet.webapp.headers.util.ConexionBaseDatos;
+import org.jnavarro.apiservlet.webapp.headers.util.ConexionBaseDatosDS;
 
 import java.io.IOException;
 import java.sql.Connection;
@@ -15,7 +16,7 @@ public class ConexionFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
-        try(Connection connection = ConexionBaseDatos.getConnection()){
+        try(Connection connection = ConexionBaseDatosDS.getConnection()){
             if (connection.getAutoCommit()) {
                 connection.setAutoCommit(false);
             }
