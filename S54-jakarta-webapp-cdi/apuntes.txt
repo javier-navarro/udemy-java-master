@@ -1,0 +1,86 @@
+============================================================
+S54- Jakarta - CDI - Inyección de dependencias y contextos
+============================================================
+
+CDI: Conextext dependency injection
+
+Es una especificación estándar y framework para la inyección de dependencias y manejo de contextos incluido desde java EE6.
+
+Los beans se registran en el contenedor CDI y después podemos inyectarlo en otros componentes
+
+INYECCION DE DEPENDENCIAS
+
+Patron  de diseño que forma parte de la poo en la plataforma Java EE
+
+Especifica que se inyectara en un componente o variable de contexto en un atributo de otro componente CDI, para inyectar componentes de la aplicación en el componente actual.
+
+Inyectar es suministrar un objeto una referencia de otros que necesite según la relación , tiene que plasmarse mediante la anotación @inject
+
+CARACTERISTICAS CDI
+
+-Promueve la composición y modularidad entre las partes que se componen una app
+- Mantiene su código limpio, simple y modular, bajo acoplamiento y alta cohesion.
+- Las aplicaciones con Java EE con Weld son simples y requieren mucho menos código para la misma funcionalidad.
+- Se elimina código repetitivo y configuraciones XML y mayor uso de anotaciones.
+
+REGISTRAR E INYECTAR UN BEAN
+
+ Se crea de forma automática, no hay que hacer nada especial para publicar un bean
+
+MANEJO DE CONTEXTOS
+ Podemos no definir ningún contexto exolicito y queda como @Dependent
+ Pero también podemos definir un contexto explícitamente @ApplicationScoped
+
+CONTEXTOS CDI
+
+Los contextos sessionScoped y conversationScoped siempre deben implementar serializable.
+-@Dependent: por defecto
+-@RequestScoped: Existe dentro de la petición web y se destruye cuando termina
+-@SessionScoped: carro de compras
+-@CoversationScoped: similar al sesión scope pero mas limitado. conversación entre request y session
+-@ApplicationScoped: única instancia en la app (un singleton)
+
+ANOTACION @NAMED
+
+CDI nos permite dar nombres a los beans y realizar la inyección mediante el nombre con la anotación @named
+
+
+ANOTACION @PRODUCES
+
+Otra forma para registrar un bean mediante método. el objeto que devuelve este medoto queda registrado en el contenedor CDI, además puede tener nombre y contexto.
+
+INTEGRACION CON EL (LENGUAJE DE EXPRESION)
+Nos permite acceder a métodos y atributos de los beans o componentes CDI mediante el nombre definido con la anotación @named, es decir son asignaciones o mapping hacia los objetos
+
+
+existen 3 formas de realizar la inyección de dependencias
+- atributo --> ProductoRepositoryJdbcImpl
+- via constructor --> CategoriaRepositiryImpl
+- método set -->
+
+
+Cuando tengo mas de 1 implementación para un service, se pude marcar la que no se ocupara como @Alternative para dejar por default la otra implementación.
+
+
+-------------------------
+bean-discovery-mode
+---------------------------
+existen 3 tipos de valores
+	annotated: toma en cuenta solo lo que esta anotado
+	all: es el por default no exije anotaciones
+	none:
+
+--------------------------------
+CICLO DE VIDA DE LOS BEANS
+--------------------------------
+
+@PostContruct: cuando se construye el componente
+@Predestroy: cuando finaliza y se destruye
+
+--------------------------------
+interceptores
+--------------------------------
+muy buena practica para estandarizar y generalizar diferentes procesos
+
+
+LAS TRANSACCIONES SIEMPRE SE HACEN EN LOS SERVICES.

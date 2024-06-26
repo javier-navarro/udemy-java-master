@@ -1,0 +1,44 @@
+=====================================
+S55 Jakarta - Hibernate (480 - 492)
+=====================================
+Es una herramienta de mapeo de objeto relacional (ORM) que permite trabajar los datos de una base de datos en forma de clases y objetos(lenguaje poo)
+
+Todas las consultas se hacen mediante anotaciones a la bd
+
+Repositorio/DAO
+	--> Java Persistence API(JPA) ==> objeto entityManager
+	--> Hibernate Native API ==>objeto session
+Hibernate
+
+---------------------------------------
+Tipos de consultas
+---------------------------------------
+- Hibernate query Language (HQL) JPA
+- Criteria API
+- SQL Nativo
+
+
+---------------------------------------
+Relaciones
+---------------------------------------
+- @ManyToOne: n a 1
+- @OneToMany: 1 a n
+- @OneToOne: 1 a 1
+- @ManyToMany: n a n
+
+
+============================================
+crud desde repositorio
+============================================
+primero se crea el repository, la interface y la implementacion.
+    la interfaz del repo se genera lo mas generica posible.
+    la implementacion del repo llama al entitimanager para los temas de transaccionalidad.
+
+Despues se genera el service, la interface y la implementacion.
+    la interface se genera con el tipo que corresponda no geneticamente
+    la implementacion lleva el entiti manager y el repository.
+
+    Ambos se inicializan en el cosntructor.
+    el entityManager se pasa por el parametro
+    el repository se inicializa dentro del constructor desde el generico hacia la implementacion y de entrada el entity manager.
+
