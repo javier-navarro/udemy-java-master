@@ -28,6 +28,7 @@
         <option value="$PROJECT_DIR$/S51-jakarta-webapp-layout/pom.xml" />
         <option value="$PROJECT_DIR$/S54-jakarta-webapp-cdi/pom.xml" />
         <option value="$PROJECT_DIR$/S55-jakarta-hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/S56-jakarta-hibernate-jpql/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

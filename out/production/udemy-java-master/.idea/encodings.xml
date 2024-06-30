@@ -19,7 +19,47 @@
     <file url="file://$PROJECT_DIR$/S37-UnitTesting/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/S38-UnitTesting-Mockito/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/S38-UnitTesting-Mockito/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S39-jakarta-servlet/Tarea38/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S39-jakarta-servlet/Tarea38/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/S39-jakarta-servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/S39-jakarta-servlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S41-jakarta-webapp-form/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S41-jakarta-webapp-form/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S42-jakarta-webapp-cabeceras/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S42-jakarta-webapp-cabeceras/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S43-jakarta-webapp-cookies/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S43-jakarta-webapp-cookies/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S44-jakarta-webapp-session/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S44-jakarta-webapp-session/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S46-jakarta-webapp-listener/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S46-jakarta-webapp-listener/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S48-jakarta-webapp-filters/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S48-jakarta-webapp-filters/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S50-jakarta-webapp-JSTL/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S50-jakarta-webapp-JSTL/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S51-jakarta-webapp-layout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S51-jakarta-webapp-layout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S54-jakarta-webapp-cdi/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S54-jakarta-webapp-cdi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S55-jakarta-hibernate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S55-jakarta-hibernate/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S56-jakarta-hibernate-jpql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/S56-jakarta-hibernate-jpql/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea38Servlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea38Servlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea39/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea39/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea41/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea41/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea42/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea42/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea44/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea44/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea45/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea45/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea46/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea46/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea47/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Tarea47/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -11,7 +11,30 @@
         <option value="$PROJECT_DIR$/S38-UnitTesting-Mockito/pom.xml" />
         <option value="$PROJECT_DIR$/S38-jakarta-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/S39-jakarta-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea38Servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/S41-jakarta-webapp-form/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea39/pom.xml" />
+        <option value="$PROJECT_DIR$/S42-jakarta-webapp-cabeceras/pom.xml" />
+        <option value="$PROJECT_DIR$/S43-jakarta-webapp-cookies/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea41/pom.xml" />
+        <option value="$PROJECT_DIR$/S44-jakarta-webapp-session/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea42/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea44/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea45/pom.xml" />
+        <option value="$PROJECT_DIR$/S48-jakarta-webapp-filters/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea46/pom.xml" />
+        <option value="$PROJECT_DIR$/Tarea47/pom.xml" />
+        <option value="$PROJECT_DIR$/S50-jakarta-webapp-JSTL/pom.xml" />
+        <option value="$PROJECT_DIR$/S51-jakarta-webapp-layout/pom.xml" />
+        <option value="$PROJECT_DIR$/S54-jakarta-webapp-cdi/pom.xml" />
+        <option value="$PROJECT_DIR$/S55-jakarta-hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/S56-jakarta-hibernate-jpql/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/S39-jakarta-servlet/Tarea38/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="true" project-jdk-name="14" project-jdk-type="JavaSDK">
