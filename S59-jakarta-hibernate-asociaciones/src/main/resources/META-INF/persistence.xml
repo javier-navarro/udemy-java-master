@@ -3,9 +3,14 @@
     <persistence-unit name="ejemploJPA" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>org.jnavarro.hibernateapp.entity.Cliente</class>
+        <class>org.jnavarro.hibernateapp.entity.Factura</class>
+        <class>org.jnavarro.hibernateapp.entity.Direccion</class>
+        <class>org.jnavarro.hibernateapp.entity.ClienteDetalle</class>
+        <class>org.jnavarro.hibernateapp.entity.Curso</class>
+        <class>org.jnavarro.hibernateapp.entity.Alumno</class>
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
         <properties>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3307/java_curso?serverTimezone=UTC"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3307/java_hibernate_curso?serverTimezone=UTC"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
             <property name="jakarta.persistence.jdbc.password" value="7979"/>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>

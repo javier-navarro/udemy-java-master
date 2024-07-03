@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Tarea39" />
+        <module name="S59-jakarta-hibernate-asociaciones" />
         <module name="Tarea37" />
         <module name="bdd-jdbc-close" />
         <module name="S37-UnitTesting" />
@@ -34,6 +35,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jakarta-hibernate-asociaciones" target="14" />
       <module name="S34-BDD-JDBC-close" target="14" />
       <module name="S43-jakarta-webapp-session" target="14" />
       <module name="S44-jakarta-webapp-listener" target="14" />

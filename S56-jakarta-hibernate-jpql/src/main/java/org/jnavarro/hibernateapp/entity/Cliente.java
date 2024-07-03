@@ -1,6 +1,10 @@
 package org.jnavarro.hibernateapp.entity;
 
 import jakarta.persistence.*;
+import org.hibernate.engine.loading.internal.LoadContexts;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "clientes")
@@ -12,6 +16,9 @@ public class Cliente {
     private String apellido;
     @Column(name = "forma_de_pago")
     private String formaPago;
+
+    @Embedded
+    private Auditoria auditoria = new Auditoria();
 
     public Cliente() {
     }
@@ -62,9 +69,13 @@ public class Cliente {
 
     @Override
     public String toString() {
+        LocalDateTime creado = this.auditoria != null ? auditoria.getCreadoEn() : null;
+        LocalDateTime editado = this.auditoria != null ? auditoria.getEditadoEn() : null;
         return "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", apellido='" + apellido + '\'' +
-                ", formaPago='" + formaPago;
+                ", formaPago='" + formaPago + '\'' +
+                ", creadoEn='" + creado + '\'' +
+                ", editadoEn='" + editado;
     }
 }
