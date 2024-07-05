@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/S55-jakarta-hibernate/pom.xml" />
         <option value="$PROJECT_DIR$/S56-jakarta-hibernate-jpql/pom.xml" />
         <option value="$PROJECT_DIR$/S59-jakarta-hibernate-asociaciones/pom.xml" />
+        <option value="$PROJECT_DIR$/S62-jakarta-hibernate-servlet/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

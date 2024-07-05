@@ -3,3 +3,19 @@ INSERT INTO alumnos (id,nombre,apellido) values (1,"Obanai" ,"Iguro");
 INSERT INTO alumnos (id,nombre,apellido) values (2,"Zanemi" ,"Zhinazugawa");
 INSERT INTO cursos (id,profesor,titulo) values (1,"sonia" ,"lenguaje");
 INSERT INTO cursos (id,profesor,titulo) values (2,"fredy" ,"matematicas");
+
+insert into direcciones(calle,numero) values ("vaticano", 123);
+insert into direcciones(calle,numero) values ("taicho", 456);
+
+insert into tbl_clientes_direcciones (id_cliente,id_direccion) values (1,1);
+insert into tbl_clientes_direcciones (id_cliente,id_direccion) values (1,2);
+
+insert into clientes_detalles (prime, puntos_acumulados,cliente_detalle_id) values (1,8000,1);
+
+insert into tbl_alumnos_cursos(alumno_id,curso_id) values (1,1);
+insert into tbl_alumnos_cursos(alumno_id,curso_id) values (1,2);
+
+insert into facturas (descripcion, total, id_cliente) values ("oficina", 4000, 1);
+insert into facturas (descripcion, total, id_cliente) values ("casa", 2000, 1);
+insert into facturas (descripcion, total, id_cliente) values ("deporte", 3000, 1);
+insert into facturas (descripcion, total, id_cliente) values ("computacion", 7000, 2);

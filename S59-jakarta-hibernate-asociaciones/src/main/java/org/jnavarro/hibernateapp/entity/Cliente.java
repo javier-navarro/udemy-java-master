@@ -22,14 +22,14 @@ public class Cliente {
     @Embedded
     private Auditoria auditoria = new Auditoria();
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @OneToMany( fetch = FetchType.EAGER,cascade = CascadeType.ALL, orphanRemoval = true)
     //@JoinColumn(name = "id_cliente")
     @JoinTable(name="tbl_clientes_direcciones", joinColumns = @JoinColumn(name = "id_cliente"),
     inverseJoinColumns = @JoinColumn(name = "id_direccion"),
     uniqueConstraints = @UniqueConstraint(columnNames = {"id_direccion"}))
     private List<Direccion> direcciones;
 
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "cliente")
+    @OneToMany( cascade = CascadeType.ALL, orphanRemoval = true, mappedBy = "cliente")
     private List<Factura> facturas;
     public Cliente() {
         facturas = new ArrayList<>();

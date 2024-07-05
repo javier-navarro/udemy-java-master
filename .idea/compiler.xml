@@ -9,6 +9,7 @@
         <module name="Tarea39" />
         <module name="S59-jakarta-hibernate-asociaciones" />
         <module name="Tarea37" />
+        <module name="S62-jakarta-hibernate-servlet" />
         <module name="bdd-jdbc-close" />
         <module name="S37-UnitTesting" />
         <module name="S44-jakarta-webapp-session" />

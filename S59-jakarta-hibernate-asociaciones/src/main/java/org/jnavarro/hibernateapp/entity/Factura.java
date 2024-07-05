@@ -22,7 +22,7 @@ public class Factura {
         this.total = total;
     }
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY )
     @JoinColumn(name = "id_cliente")
     private Cliente cliente;
 

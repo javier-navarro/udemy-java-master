@@ -19,6 +19,9 @@ public class ClienteDetalle {
     @JoinColumn(name = "cliente_detalle_id")
     private Cliente cliente;
 
+    public ClienteDetalle() {
+    }
+
     public ClienteDetalle(boolean prime, Long puntosAcumulados) {
         this.prime = prime;
         this.puntosAcumulados = puntosAcumulados;
